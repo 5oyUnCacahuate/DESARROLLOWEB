@@ -1,0 +1,47 @@
+.TituloPrincipal{
+  
+  /*apariencia del texto*/
+  
+  color: rgb(12, 12, 12);
+  font-size: 30px;  /* tamano de las letras*/
+  text-align: center;   /*posicion: izquierda, derecha, medio*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;  /*grosor de las letras*/
+  text-decoration: none; /*subrayado de las letras*/   /* nano significa "sin"*/
+  line-height: 1.5;  /*espacio entre lineas de texto*/
+
+
+  /*dimenciones y posicionamiento*/
+
+  width: none; /*ancho*/
+  height: none; /*alto*/
+  margin: 50px 20px; /*margen fuera del texto   10px arriba/abajo 20px derecha/izquierda  0 auto centrar horizontalmente */
+  padding: 10px 10px; /* aumentar el tamano de la caja*/
+
+  /*fondo y color*/
+
+  background-color: rgb(64, 63, 64); /*color de fondo*/ 
+  background-image: none;    /*imagen de fondo*/
+
+  /*diseno*/
+  /*display: none; /*comportamiento del elemento*/   /*block: todo lo ancho, inline: solo el espacio necesario*/
+  top: 10000px;
+  left: 100px;
+  bottom: 100px;
+  right: 100px;
+
+
+}
+
+.navegacion a{
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 50px;
+  
+}
+
+.BotonMensaje{
+  color: black;
+  margin-top: 20px;
+  display: block;
+}
